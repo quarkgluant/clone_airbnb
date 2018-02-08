@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails clone_airbnb: development" uuid="4c275c20-e7fc-4ce5-8f9a-5bc5a317880b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/clone_airbnb_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails clone_airbnb: test" uuid="9d4b0dd8-6187-4860-916a-3b1ac7b1e33c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/clone_airbnb_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails clone_airbnb: production" uuid="697740a7-0c0d-494e-97ea-ae8311e4e858">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/clone_airbnb_production</jdbc-url>
+    </data-source>
+  </component>
+</project>

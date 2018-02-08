@@ -1,0 +1,23 @@
+                   Prefix Verb   URI Pattern                                                                       Controller#Action
+         new_user_session GET    /login(.:format)                                                                  devise/sessions#new
+             user_session POST   /login(.:format)                                                                  devise/sessions#create
+     destroy_user_session DELETE /logout(.:format)                                                                 devise/sessions#destroy
+        new_user_password GET    /password/new(.:format)                                                           devise/passwords#new
+       edit_user_password GET    /password/edit(.:format)                                                          devise/passwords#edit
+            user_password PATCH  /password(.:format)                                                               devise/passwords#update
+                          PUT    /password(.:format)                                                               devise/passwords#update
+                          POST   /password(.:format)                                                               devise/passwords#create
+ cancel_user_registration GET    /cancel(.:format)                                                                 devise/registrations#cancel
+    new_user_registration GET    /sign_up(.:format)                                                                devise/registrations#new
+   edit_user_registration GET    /profile(.:format)                                                                devise/registrations#edit
+        user_registration PATCH  /                                                                                 devise/registrations#update
+                          PUT    /                                                                                 devise/registrations#update
+                          DELETE /                                                                                 devise/registrations#destroy
+                          POST   /                                                                                 devise/registrations#create
+                     root GET    /                                                                                 pages#home
+       rails_service_blob GET    /rails/active_storage/blobs/:signed_id/*filename(.:format)                        active_storage/blobs#show
+     rails_blob_variation GET    /rails/active_storage/variants/:signed_blob_id/:variation_key/*filename(.:format) active_storage/variants#show
+       rails_blob_preview GET    /rails/active_storage/previews/:signed_blob_id/:variation_key/*filename(.:format) active_storage/previews#show
+       rails_disk_service GET    /rails/active_storage/disk/:encoded_key/*filename(.:format)                       active_storage/disk#show
+update_rails_disk_service PUT    /rails/active_storage/disk/:encoded_token(.:format)                               active_storage/disk#update
+     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                    active_storage/direct_uploads#create
