@@ -21,6 +21,6 @@ fr:
             listing_name: "Le nom de l'annonce"
             bath_room: "Le nombre de salles de bain"
             bed_room: "Le nombre de chambres"
-            accommodate: "Le nombre de voyageurs"
+            accomodate: "Le nombre de voyageurs"
             room_type: "Le type de logement"
             home_type: "Le genre d'habitation"
