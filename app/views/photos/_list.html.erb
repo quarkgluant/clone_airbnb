@@ -6,6 +6,19 @@
           <div class="panel-heading preview">
             <%= image_tag photo.image.url %>
           </div>
+          <div class="panel-body">
+            <div class="pull-right">
+              <%= link_to photo,
+                          remote: true,
+                          method: :delete,
+                          data:
+                              { confirm:
+                                    'Attention vous allez supprimer cette photo'
+                              } do %>
+                <i class="fa fa-times fa-lg"></i>
+              <% end %>
+            </div>
+          </div>
         </div>
       </div>
     <% end %>
