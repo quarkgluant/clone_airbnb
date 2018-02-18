@@ -4,7 +4,7 @@
 class RoomsController < ApplicationController
   # Room Controller
   before_action :set_room, only: [:show, :edit, :update]
-  before_action authenticate_user!, except: :show
+  before_action :authenticate_user!, except: :show
 
   def index
     @rooms = current_user.rooms
