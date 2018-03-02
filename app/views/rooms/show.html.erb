@@ -5,7 +5,7 @@
     <!--    Photo principale de l'annonce   -->
     <div class="row">
       <div class="col-md-12">
-        <%= image_tag @photos[0].image.url(), class: 'img-responsive' if @photos.length > 0 %>
+        <%= image_tag @photos[0].image.url, class: 'img-responsive' if @photos.length > 0 %>
       </div>
     </div>
     <br>
@@ -81,18 +81,32 @@
         <div class="row">
           <div class="col-md-6">
             <ul class="equipments">
-              <li class="<%= 'text-line-through' unless @room.is_wifi %>">Wifi</li>
-              <li class="<%= 'text-line-through' unless @room.is_tv %>">Télévision</li>
-              <li class="<%= 'text-line-through' unless @room.is_closet %>">Penderie/Commode</li>
-              <li class="<%= 'text-line-through' unless @room.is_shampoo %>">Shampoing</li>
+              <li class="<%= 'text-line-through' unless @room.is_wifi %>">
+                Wifi
+              </li>
+              <li class="<%= 'text-line-through' unless @room.is_tv %>">
+                Télévision
+              </li>
+              <li class="<%= 'text-line-through' unless @room.is_closet %>">
+                Penderie/Commode</li>
+              <li class="<%= 'text-line-through' unless @room.is_shampoo %>">Shampoing
+              </li>
             </ul>
           </div>
           <div class="col-md-6">
             <ul class="equipments">
-              <li class="<%= 'text-line-through' if !@room.is_kitchen %>">Cuisine</li>
-              <li class="<%= 'text-line-through' if !@room.is_breakfast %>">Petit déjeuner</li>
-              <li class="<%= 'text-line-through' if !@room.is_heating %>">Chauffage</li>
-              <li class="<%= 'text-line-through' if !@room.is_air %>">Climatisation</li>
+              <li class="<%= 'text-line-through' unless @room.is_kitchen %>">
+                Cuisine
+              </li>
+              <li class="<%= 'text-line-through' unless @room.is_breakfast %>">
+                Petit déjeuner
+              </li>
+              <li class="<%= 'text-line-through' unless @room.is_heating %>">
+                Chauffage
+              </li>
+              <li class="<%= 'text-line-through' unless @room.is_air %>">
+                Climatisation
+              </li>
             </ul>
           </div>
         </div>
@@ -116,7 +130,7 @@
             <% if @photos %>
               <% @photos.each do |photo| %>
                 <div class="item <%= 'active' if photo.id == @photos[0].id %>">
-                  <%= image_tag photo.image.url() %>
+                  <%= image_tag photo.image.url %>
                 </div>
                 <% end %>
             <% end %>
@@ -132,6 +146,35 @@
             <span class="sr-only">Suivant</span>
           </a>
         </div>
+      </div>
+    </div>
+
+    <!--    GoogleMaps-->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="map" style="height: 400px; width: 100%; padding: 1em; margin-right: 1em;margin-top: 1em">
+        </div>
+
+        <script>
+            function initMap() {
+                var room = {
+                    lat: <%= @room.latitude %>,
+                    lng: <%= @room.longitude%>
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 10,
+                    center: room
+                });
+                var marker = new google.maps.Marker({
+                    position: room,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC90e3_PvS0o4XtTBHSc6qye0c7gZ2PQ14&callback=initMap">
+        </script>
+
       </div>
     </div>
 
