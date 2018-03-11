@@ -17,8 +17,10 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require bootstrap-datepicker
+//= require bootstrap-datepicker/locales/bootstrap-datepicker.fr.js
 //= require_tree .
 
 toastr.options = {
     "positionClass": "toast-bottom-right"
-}
+};

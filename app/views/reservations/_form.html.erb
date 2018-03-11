@@ -1,6 +1,24 @@
 <%= form_for([@room, @room.reservations.new]) do |f| %>
-  <%= f.text_field :start_date %>
-  <%= f.text_field :end_date %>
+  <%= f.text_field :start_date, data: {
+      provide: 'datepicker',
+      'date-language': 'fr',
+      'date-orientation': 'bottom',
+      'date-start-view': 0,
+      'date-format': 'dd-mm-yyyy',
+      'date-autoclose': 'true',
+      'date-today-btn': 'linked',
+      'date-today-highlight': 'true'
+  } %>
+  <%= f.text_field :end_date, data: {
+      provide: 'datepicker',
+      'date-language': 'fr',
+      'date-orientation': 'bottom',
+      'date-start-view': 0,
+      'date-format': 'dd-mm-yyyy',
+      'date-autoclose': 'true',
+      'date-today-btn': 'linked',
+      'date-today-highlight': 'true'
+  } %>
 
   <%= f.hidden_field :room_id, value: @room.id %>
   <%= f.hidden_field :price, value: @room.price %>
