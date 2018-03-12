@@ -73,4 +73,4 @@ gem 'font-awesome-sass'
 gem 'paperclip-cloudinary'
 gem 'geocoder'
 gem 'jquery-ui-rails'
-gem 'bootstrap-datepicker-rails'
+
