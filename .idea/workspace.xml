@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940f4621-17d3-4fd5-9c56-0b8919f585ca" name="Default" comment="ajoute Google Maps dans la recherche">
+    <list default="true" id="940f4621-17d3-4fd5-9c56-0b8919f585ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/search.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/search.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rooms/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rooms/show.html.erb" afterDir="false" />
     </list>
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
@@ -53,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/rooms/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="192" column="104" selection-start-line="192" selection-start-column="65" selection-end-line="192" selection-end-column="104" />
+              <caret line="192" column="97" selection-start-line="192" selection-start-column="65" selection-end-line="192" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -104,8 +105,8 @@
       <file leaf-file-name="search.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/search.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="386">
+              <caret line="30" column="96" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -154,6 +155,7 @@
       <find>trip</find>
       <find>&quot;('.+')&quot;</find>
       <find>&quot;</find>
+      <find>js?key=AIzaSyC90e3_PvS0o4XtTBHSc6qye0c7gZ2PQ14&amp;</find>
     </findStrings>
     <replaceStrings>
       <replace>form-group</replace>
@@ -161,6 +163,7 @@
       <replace>reservation</replace>
       <replace>$1</replace>
       <replace>'</replace>
+      <replace>js?key=&lt;%= ENV[&quot;GOOGLEMAPS_API_KEY&quot;] %&gt;&amp;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -665,14 +668,7 @@
       <workItem from="1520882656892" duration="793000" />
       <workItem from="1520893092722" duration="1683000" />
       <workItem from="1521459016925" duration="416000" />
-      <workItem from="1521965209696" duration="15113000" />
-    </task>
-    <task id="LOCAL-00013" summary="modifie la page de profil">
-      <created>1518956428688</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1518956428688</updated>
+      <workItem from="1521965209696" duration="15844000" />
     </task>
     <task id="LOCAL-00014" summary="crée un nouveau contrôleur héritant de celui de Devise pour permettre les modifications sans remplir le mot de passe actuel">
       <created>1518956548155</created>
@@ -1010,11 +1006,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522060359621</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;app/views/pages/search.html.erb">
+      <created>1522060488874</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1522060488874</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135708000" />
+    <option name="totallyTimeSpent" value="136439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
@@ -1051,7 +1054,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="api_key gmaps en clair" />
     <MESSAGE value="crée le contrôleur Reservation" />
     <MESSAGE value="crée le formulaire de réservation" />
     <MESSAGE value="ajoute le datepicker pour la réservation" />
@@ -1076,7 +1078,8 @@
     <MESSAGE value="implémente une page d'acceuil dinge de ce nom" />
     <MESSAGE value="implémente une page de recherche" />
     <MESSAGE value="ajoute Google Maps dans la recherche" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajoute Google Maps dans la recherche" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;app/views/pages/search.html.erb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;app/views/pages/search.html.erb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1406,7 +1409,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/rooms/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="192" column="104" selection-start-line="192" selection-start-column="65" selection-end-line="192" selection-end-column="104" />
+          <caret line="192" column="97" selection-start-line="192" selection-start-column="65" selection-end-line="192" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -1422,8 +1425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/search.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="386">
+          <caret line="30" column="96" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="96" />
         </state>
       </provider>
     </entry>
