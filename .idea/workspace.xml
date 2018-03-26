@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="940f4621-17d3-4fd5-9c56-0b8919f585ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/reviews/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/reviews/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/reviews/_list.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/reviews/_list.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rooms/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rooms/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
@@ -100,8 +97,8 @@
       <file leaf-file-name="_list.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/reviews/_list.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="454">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -586,14 +583,7 @@
       <workItem from="1520882656892" duration="793000" />
       <workItem from="1520893092722" duration="1683000" />
       <workItem from="1521459016925" duration="416000" />
-      <workItem from="1521965209696" duration="7284000" />
-    </task>
-    <task id="LOCAL-00005" summary="correct database.yml">
-      <created>1518098688048</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1518098688048</updated>
+      <workItem from="1521965209696" duration="8173000" />
     </task>
     <task id="LOCAL-00006" summary="crée le menu de navigation">
       <created>1518102147113</created>
@@ -931,11 +921,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521971623357</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="met en place les étoiles de notations grace à raty.js">
+      <created>1522052370625</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1522052370625</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127879000" />
+    <option name="totallyTimeSpent" value="128768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
@@ -972,7 +969,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implémente stockage photos en prod sur cloudinary" />
     <MESSAGE value="corrige une erreur dans application helper" />
     <MESSAGE value="implémente (en parie) la page show" />
     <MESSAGE value="implémente le reste de la page Rooms show en ajoutant le carousel" />
@@ -997,7 +993,8 @@
     <MESSAGE value="corrge oubli appel present?" />
     <MESSAGE value="crée les vues pour les commentaires/reviews" />
     <MESSAGE value="corrige les params de reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrige les params de reviews" />
+    <MESSAGE value="met en place les étoiles de notations grace à raty.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="met en place les étoiles de notations grace à raty.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1349,8 +1346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reviews/_list.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="454">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -15,13 +15,6 @@
           <strong><%= r.user.fullname %>
             <div id="stars_<%= r.id %>"></div>
           </strong>
-          <script>
-              $("#stars_<%= r.id %>").raty({
-                  path: '/assets',
-                  readOnly: true,
-                  score: <%= r.star %>
-              });
-          </script>
           <span class="pull-right">
                  <%= link_to 'Supprimer mon commentaire',
                              [@room, r],
@@ -37,6 +30,13 @@
         </div>
       </div>
     </div>
+    <script>
+        $("#stars_<%= r.id %>").raty({
+            path: '/assets',
+            readOnly: true,
+            score: <%= r.star %>
+        });
+    </script>
   <% end %>
 
 <% end %>
