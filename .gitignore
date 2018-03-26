@@ -50,7 +50,7 @@ config/initializers/secret_token.rb
 .env
 
 ## Environment normalization:
-/.bundle
+#/.bundle
 /vendor/bundle
 
 # these should all be checked in to normalize the environment:
@@ -68,10 +68,10 @@ bower.json
 .powenv
 
 # Ignore Byebug command history file.
-.byebug_history
+#.byebug_history
 
 # Ignore node_modules
-node_modules/
+#node_modules/
 
 # See https://help.github.com/articles/ignoring-files for more about ignoring files.
 #
@@ -81,7 +81,8 @@ node_modules/
 
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+#/config/master.key
 
 
-
+bower_components/
+yarn.lock
