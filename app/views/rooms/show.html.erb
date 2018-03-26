@@ -24,6 +24,9 @@
               <%= @room.listing_name %>
             </h4>
             <%= @room.address %>
+            <a href="#average_rating" class="sidebar-link">
+              <span id="average_rating_header"></span> <%= @reviews.count %>
+            </a>
             <div class="row text-center row-space-1">
               <div class="col-sm-3">
                 <i class="fa fa-home fa-2x"></i>
@@ -151,7 +154,7 @@
     <!-- Reviews -->
     <div class="row">
       <div class="col-md-12">
-        <h3>Commentaires <span id="average_rating"></span> (<%= @reviews.count %>)</h3>
+        <%= pluralize(@reviews.count, 'commentaire') %><span id="average_rating"></span>
         <div class="container">
           <div>
             <!-- le formulaire apparait seulement si l’utilisateur a déjà reservé des dates sur ce logement et s’il n’a pas déjà note celui-ci…-->
@@ -216,6 +219,11 @@
 
 <script>
     $('#average_rating').raty({
+        path: '/assets',
+        readOnly: true,
+        score: <%= @room.average_rating %>
+    });
+    $('#average_rating_header').raty({
         path: '/assets',
         readOnly: true,
         score: <%= @room.average_rating %>
