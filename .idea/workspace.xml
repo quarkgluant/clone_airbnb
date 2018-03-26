@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="940f4621-17d3-4fd5-9c56-0b8919f585ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/reviews/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/reviews/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/reviews/_list.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/reviews/_list.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/rooms/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rooms/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
@@ -17,7 +19,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/clone_airbnb@Rails_console__clone_airbnb.rcov" NAME="Rails console: clone_airbnb Coverage Results" MODIFIED="1520774376339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clone_airbnb" />
-    <SUITE FILE_PATH="coverage/clone_airbnb@Development__clone_airbnb.rcov" NAME="Development: clone_airbnb Coverage Results" MODIFIED="1521970617735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clone_airbnb" />
+    <SUITE FILE_PATH="coverage/clone_airbnb@Development__clone_airbnb.rcov" NAME="Development: clone_airbnb Coverage Results" MODIFIED="1522051868259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clone_airbnb" />
     <SUITE FILE_PATH="coverage/clone_airbnb@db_create__clone_airbnb.rcov" NAME="db:create: clone_airbnb Coverage Results" MODIFIED="1518098547647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clone_airbnb" />
     <SUITE FILE_PATH="coverage/clone_airbnb@db_migrate__clone_airbnb.rcov" NAME="db:migrate: clone_airbnb Coverage Results" MODIFIED="1520019297849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="clone_airbnb" />
   </component>
@@ -50,20 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="room.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/room.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/rooms/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="157" column="59" selection-start-line="157" selection-start-column="59" selection-end-line="157" selection-end-column="59" />
+            <state relative-caret-position="478">
+              <caret line="222" column="9" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -80,8 +73,8 @@
       <file leaf-file-name="reviews_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/reviews_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="63">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -89,26 +82,26 @@
       <file leaf-file-name="rooms_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="151">
               <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/reviews/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="231">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_list.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_list.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/reviews/_list.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="244">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -127,15 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/rooms/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -225,12 +209,12 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/room.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/reviews_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/reviews/_list.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/rooms/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/reviews_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/reviews/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/rooms/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/reviews/_list.html.erb" />
       </list>
     </option>
   </component>
@@ -246,6 +230,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="101" />
@@ -299,82 +286,33 @@
               <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="raty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="raty" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="photos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="reservations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="reviews" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="rooms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="rooms" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clone_airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="raty" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clone_airbnb" type="b2602c69:ProjectViewProjectNode" />
@@ -426,6 +364,13 @@
     <property name="http.client.ignore.private.env.files.were.configured" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -641,21 +586,7 @@
       <workItem from="1520882656892" duration="793000" />
       <workItem from="1520893092722" duration="1683000" />
       <workItem from="1521459016925" duration="416000" />
-      <workItem from="1521965209696" duration="4131000" />
-    </task>
-    <task id="LOCAL-00003" summary="Devise installation">
-      <created>1517785267817</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1517785267817</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Devise installation">
-      <created>1517785470981</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1517785470981</updated>
+      <workItem from="1521965209696" duration="7284000" />
     </task>
     <task id="LOCAL-00005" summary="correct database.yml">
       <created>1518098688048</created>
@@ -986,11 +917,25 @@
       <option name="project" value="LOCAL" />
       <updated>1521966952403</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="crée les vues pour les commentaires/reviews">
+      <created>1521970847178</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1521970847178</updated>
+    </task>
+    <task id="LOCAL-00053" summary="corrige les params de reviews">
+      <created>1521971623357</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1521971623357</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124726000" />
+    <option name="totallyTimeSpent" value="127879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
@@ -1003,7 +948,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33059788" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" content_ui="combo" id="Routes" order="3" weight="0.32977587" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3271028" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3270809" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23479189" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.1814301" />
@@ -1027,8 +972,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="crée le contrôleur photo avec la méthode destroy faisant appel à destroy.js.erb" />
-    <MESSAGE value="rajoute l'icône d'upload dans profile" />
     <MESSAGE value="implémente stockage photos en prod sur cloudinary" />
     <MESSAGE value="corrige une erreur dans application helper" />
     <MESSAGE value="implémente (en parie) la page show" />
@@ -1052,7 +995,9 @@
     <MESSAGE value="crée le modèle Review" />
     <MESSAGE value="crée le contrôleur Review" />
     <MESSAGE value="corrge oubli appel present?" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrge oubli appel present?" />
+    <MESSAGE value="crée les vues pour les commentaires/reviews" />
+    <MESSAGE value="corrige les params de reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrige les params de reviews" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1060,20 +1005,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/rooms/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4300">
-          <caret line="172" column="104" selection-start-line="172" selection-start-column="104" selection-end-line="172" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/rooms/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4300">
@@ -1375,13 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/reviews_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1389,31 +1313,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/reviews/_list.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="151">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/reviews_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/rooms/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="157" column="59" selection-start-line="157" selection-start-column="59" selection-end-line="157" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/rooms_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        <state relative-caret-position="478">
+          <caret line="222" column="9" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reviews/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="231">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jquery.raty.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.raty.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/reviews/_list.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>

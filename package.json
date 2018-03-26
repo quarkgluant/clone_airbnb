@@ -1,5 +1,7 @@
 {
   "name": "clone_airbnb",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "raty": "^1.0.5"
+  }
 }
