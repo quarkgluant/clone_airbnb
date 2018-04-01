@@ -27,9 +27,7 @@ default: &default
 development:
   <<: *default
   database: clone_airbnb_development
-  host: localhost
-  username: quark
-  password: '3.14159'
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
