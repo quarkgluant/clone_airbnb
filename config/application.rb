@@ -6,6 +6,9 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# need for load of the .env by the dotenv gem
+Dotenv::Railtie.load
+
 module CloneAirbnb
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.

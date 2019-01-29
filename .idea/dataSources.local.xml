@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails clone_airbnb: development" uuid="4c275c20-e7fc-4ce5-8f9a-5bc5a317880b">
-      <database-info product="PostgreSQL" version="9.6.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+      <database-info product="PostgreSQL" version="9.6.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1" dbms="POSTGRES" exact-version="9.6.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -11,7 +11,7 @@
       <introspection-schemas>clone_airbnb_development:public</introspection-schemas>
     </data-source>
     <data-source name="Rails clone_airbnb: test" uuid="9d4b0dd8-6187-4860-916a-3b1ac7b1e33c">
-      <database-info product="PostgreSQL" version="9.6.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+      <database-info product="PostgreSQL" version="9.6.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1" dbms="POSTGRES" exact-version="9.6.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -19,7 +19,7 @@
       <introspection-schemas>clone_airbnb_test:public</introspection-schemas>
     </data-source>
     <data-source name="Rails clone_airbnb: production" uuid="697740a7-0c0d-494e-97ea-ae8311e4e858">
-      <database-info product="PostgreSQL" version="9.6.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+      <database-info product="PostgreSQL" version="9.6.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1" dbms="POSTGRES" exact-version="9.6.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
